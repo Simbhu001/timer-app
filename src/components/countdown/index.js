@@ -22,7 +22,7 @@ export default function CountDown() {
 
 
     const countdownTimer = () => {
-        const eventDate = new Date("mar 07,2023").getTime();
+        const eventDate = new Date("mar 15,2023").getTime();
         let interval = setInterval(() => {
             const now = new Date().getTime();
             const distance = eventDate - now;
